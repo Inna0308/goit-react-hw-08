@@ -1,0 +1,14 @@
+.container {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.input {
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  font-size: 14px;
+}
