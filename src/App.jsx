@@ -3,11 +3,11 @@ import { nanoid } from "nanoid";
 
 import ContactList from "./components/ContactList/ContactList";
 import ContactForm from "./components/ContactForm/ContactForm";
+import SearchBox from "./components/SearchBox/SearchBox";
 
 import numbersData from "../numbers.json";
 
 import "./App.css";
-import FilterContact from "./components/FilterContact/FilterContact";
 
 function App() {
   const [contacts, setContacts] = useState(() => {
@@ -38,7 +38,7 @@ function App() {
     <div>
       <h1>Phonebook</h1>
       <ContactForm addContact={addContact} />
-      <FilterContact filter={filter} setFilter={setFilter} />
+      <SearchBox filter={filter} setFilter={setFilter} />
       <ContactList contacts={filteredContacts} onDeleteContact={onDeleteContact} id={contacts.id} />
     </div>
   );

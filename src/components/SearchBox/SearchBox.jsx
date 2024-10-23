@@ -1,4 +1,4 @@
-import styles from "./FilterContact.module.css";
+import styles from "./SearchBox.module.css";
 
 const FilterContact = ({ filter, setFilter }) => {
   return (
