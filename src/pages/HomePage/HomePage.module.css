@@ -1,0 +1,12 @@
+.homePage {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.homePageText {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+}

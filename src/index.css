@@ -33,3 +33,10 @@ h5,
 h6 {
   margin: 0;
 }
+
+body {
+  background: linear-gradient(135deg, #b3cdd1, #f2e9dc);
+
+  height: 100vh;
+  margin: 0;
+}

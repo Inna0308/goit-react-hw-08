@@ -1,0 +1,61 @@
+.divRegForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 400px;
+  background-color: #ffffff83;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.labelRegForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.spanRegForm {
+  font-size: 16px;
+  color: #333333;
+}
+
+.btnRegForm {
+  font-size: 24px;
+  background-color: #b3cdd1;
+  border: none;
+  color: #333333;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnRegForm:hover {
+  background-color: #b3cdd1c5;
+  transform: scale(1.05);
+}
+
+.fieldRegForm {
+  font-size: 16px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.errorRegForm {
+  font-size: 14px;
+  color: #4e6164;
+  font-weight: bold;
+}

@@ -3,12 +3,17 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 16px;
+  color: #333333;
 }
 
 .input {
-  width: 350px;
-  height: 30px;
+  font-size: 16px;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
   padding: 10px;
-  font-size: 14px;
+  background-color: #f2e9dc38;
+  border: 1px solid #4e6164;
 }

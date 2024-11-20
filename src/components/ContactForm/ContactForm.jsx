@@ -1,8 +1,10 @@
-import { ErrorMessage, Field, Form, Formik } from "formik";
-import { addContactSchema } from "../../utils/schemas";
 import { useDispatch } from "react-redux";
 
-import { addContact } from "../../redux/contactsOps";
+import { ErrorMessage, Field, Form, Formik } from "formik";
+
+import { addContact } from "../../redux/contacts/operations";
+
+import { AddProfileSchema } from "../utils/schema";
 
 import styles from "./ContactForm.module.css";
 
@@ -20,7 +22,7 @@ const ContactForm = () => {
 
   return (
     <div className={styles.container}>
-      <Formik initialValues={INITIAL_VALUES} validationSchema={addContactSchema} onSubmit={handleSubmit}>
+      <Formik initialValues={INITIAL_VALUES} validationSchema={AddProfileSchema} onSubmit={handleSubmit}>
         <Form className={styles.form}>
           <label className={styles.label}>
             <span className={styles.span}>Name</span>

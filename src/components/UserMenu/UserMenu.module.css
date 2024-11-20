@@ -1,0 +1,29 @@
+.divLogOut {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.textLogOut {
+  font-size: 24px;
+}
+
+.btnLogOut {
+  font-size: 24px;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: 1px solid black;
+  color: #333333;
+  border-radius: 20px;
+  padding: 5px 10px;
+  min-width: 200px;
+  min-height: 48px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnLogOut:hover {
+  background-color: rgba(245, 245, 245, 0.418);
+}
