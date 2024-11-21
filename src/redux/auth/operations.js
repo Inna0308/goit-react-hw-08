@@ -26,6 +26,7 @@ export const register = createAsyncThunk("auth/register", async (formData, thunk
 
     return data;
   } catch (error) {
+    toast.error("Registration failed 😵");
     return thunkApi.rejectWithValue(error.message);
   }
 });
